@@ -1,0 +1,113 @@
+/* htftbug */
+.score-bug-loose {
+  background-repeat: no-repeat;
+  background-size: 34.5%;
+  background-color: grey;
+  left:40px ;
+}
+
+.loose-sbbgd {
+  position: absolute;
+  background-color: white;
+  height: 70px;
+  width: 320px;
+  top: 800px;
+  color: black;
+  text-align: center;
+  line-height: 100px;
+  z-index: 0;
+}
+
+h2#loosebugTeam1 {
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9em; 
+  position: absolute;
+  left: 35px;
+  top: 15px;
+  font-family: 'Bahnschrift Light';
+}
+
+h2#loosebugTeam2 {
+  color: black; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9em; 
+  position: absolute;
+  left: 380px;
+  top: 15px;
+  font-family: 'Bahnschrift Light';
+}
+
+.loosebugTeam1Score {
+  display: inline-block; 
+  text-align: center; 
+  width:50px; 
+  color: black; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9em;  
+  position:absolute; 
+  left: 110px;
+  top: 15px;
+  font-family: 'Bahnschrift Light';
+}
+
+.loosebugTeam2Score {
+  display: inline-block; 
+  text-align: center; 
+  width:50px; 
+  color: black; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9em;  
+  position:absolute; 
+  left: 299px;
+  top: 15px;
+  font-family: 'Bahnschrift Light';
+}
+
+h2#loosebugHTFT {
+  font-size: 1.3em;
+  float: left;
+  position: absolute;
+
+  font-family: 'Bahnschrift Light';
+
+  background:linear-gradient(90deg, #002169,#0055b8);
+  height: 60px;
+  width: 120px;
+  top: 5px;
+  left: 520px;
+  position: absolute;
+  z-index: 1;
+  color: white;
+}
+
+.vertical-line-bug {
+  background-color: black;
+  position: absolute;
+  height: 20px;
+  width: 3px;
+  top: 25px;
+  left: 360px;
+
+  
+}
+
+
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
